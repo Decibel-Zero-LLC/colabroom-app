@@ -5,7 +5,8 @@
       "namespace": "android_app",
       "package_name": "com.colabroom.beta",
       "sha256_cert_fingerprints": [
-        "63:15:6B:DC:C1:54:5B:39:FF:18:CF:84:09:14:08:7C:F6:E5:CB:AB:2D:02:56:9A:5A:AC:0C:1D:4B:D6:5D:7E"
+        "63:15:6B:DC:C1:54:5B:39:FF:18:CF:84:09:14:08:7C:F6:E5:CB:AB:2D:02:56:9A:5A:AC:0C:1D:4B:D6:5D:7E",
+        "0C:67:5A:1C:01:7D:0C:DE:89:59:B4:2E:E6:24:14:9A:1E:1F:16:6C:82:8A:93:D5:EA:15:3E:CA:08:A6:3F:DC"
       ]
     }
   }
