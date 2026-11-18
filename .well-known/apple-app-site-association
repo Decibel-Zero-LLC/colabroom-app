@@ -14,7 +14,9 @@
           { "/": "/set/*" },
           { "/": "/r/*", "comment": "A moment of a recording, inside a room" },
           { "/": "/camera/*", "comment": "Your own phone, as a second camera on your hands" },
-          { "/": "/here/*", "comment": "A place's poster, tonight" }
+          { "/": "/here/*", "comment": "A place's poster, tonight" },
+          { "/": "/advance/*", "comment": "An advance for a venue's sound tech" },
+          { "/": "/lent/*", "comment": "A chair a team's leader lent for one date" }
         ]
       }
     ]

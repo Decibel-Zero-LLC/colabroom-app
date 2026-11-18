@@ -19,15 +19,14 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="Bring a song, a part, or an idea. Make it together in CoLabRoom.">
-  <link rel="canonical" href="https://app.colabroom.com/">
+  <meta name="robots" content="noindex, follow">
 
   <!-- One public card for the app. Private songs and invitation details stay
        behind sign-in; preview clients do not run Flutter to read these tags.
-       No og:url: this page is also 404.html and answers /?invite=CODE, and an
-       og:url naming the root would declare every pasted link to be the root.
-       rel=canonical still names the root, and some crawlers infer og:url from
-       it; the paste test at the web republish settles which clients keep the
-       invitation's code. -->
+       No og:url or canonical: this one file answers the root, /?invite=CODE
+       and the 404.html fallback. Neither tag should rename each pasted link
+       to the root. The paste test at the web republish checks that each
+       preview client keeps the invitation's code. -->
   <meta property="og:title" content="Come make music">
   <meta property="og:description" content="Bring a song, a part, or an idea. Make it together in CoLabRoom.">
   <meta property="og:type" content="website">

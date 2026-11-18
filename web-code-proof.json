@@ -1,0 +1,171 @@
+{
+  "build_flags": [
+    "--release",
+    "--dump-info",
+    "--source-maps",
+    "--dart-define=AUTH_REDIRECT_URL=https://app.colabroom.com/",
+    "--dart-define=BUILD_REF=9f572ce"
+  ],
+  "compiler_proof": {
+    "compiler": "3.13.4",
+    "dead_declaration_count": 268,
+    "diagnostic_sha256": "39328cd98d55b32c8b48f2bcb00f7a4f58f3cf8434d324fbe5bc08b1ef251e6b",
+    "dump_schema": "5.1",
+    "emitted_witnesses": [
+      "package:colabroom/features/auth/supabase_auth_screen.dart::PasswordWithItsRule.build",
+      "package:colabroom/features/auth/supabase_auth_screen.dart::SupabaseAuthScreen.SupabaseAuthScreen",
+      "package:colabroom/features/auth/supabase_auth_screen.dart::SupabaseAuthScreen.createState",
+      "package:colabroom/features/auth/supabase_auth_screen.dart::SupabasePasswordRecoveryScreen.createState",
+      "package:colabroom/features/auth/supabase_auth_screen.dart::_AddressDoor.build",
+      "package:colabroom/features/auth/supabase_auth_screen.dart::_AddressSheet._AddressSheet"
+    ],
+    "forbidden_executable_count": 0,
+    "ordinary_library_bytes": {
+      "features/auth/supabase_auth_screen.dart": 37244,
+      "features/workspace/live_performance_screen.dart": 218490,
+      "features/workspace/reference_recorder_sheet.dart": 61140,
+      "features/workspace/song_sheet_panel.dart": 41640,
+      "services/hearing_harmony.dart": 3327,
+      "services/song_analysis_service.dart": 65250
+    },
+    "output_units": [
+      "main.dart.js"
+    ]
+  },
+  "inventory_sha256": "e9020fb8f3e4606de2334d58af63132252d3df9be02985bd6a08bdee91214e59",
+  "native_dependency_staging": {
+    "excluded_packages": [
+      "equatable",
+      "purchases_flutter"
+    ],
+    "native_graph_sha256": "f16948d37e93c16fc6022d83540c3e66175e1f305295b6d02a83ba31129cdfec",
+    "original_lock_sha256": "f5e94c6489319316e5534545263d14c65bbf39f21d465aa8feaad69e358c43cf",
+    "original_manifest_sha256": "340e9576e43e5317e11ec9b69a01b16a87af81b74ae5321c6ebc6ac184fc7216",
+    "recipe_sha256": "1f4aab1b10dc402ecf907ad596e551cbb22bf06440a2b9423f35ef0ffea19e62",
+    "source_inputs_sha256": "9ea0de5e13f3133e9bbda4bfc2449f148fbfecffa7d5476100be83b612cb466e",
+    "source_sha": "9f572ceb8ef602089657d13a355896147f9b7539",
+    "staged_inputs_sha256": "84c6cbbef3ca4f4ba90f4f4b57be9b25586ea58204081bd454c5b66c47a914cd",
+    "staged_lock_sha256": "b6ad73791d4104273d92820b7a3692e80b25de2d8f36d90e4f61111603050d3c",
+    "staged_manifest_sha256": "3682930ce32d7691097bdf483b65bd0e7c65687d69409a6cef5c9583730c4212",
+    "transformation": "exclude-native-revenuecat-v1"
+  },
+  "repository": "Decibel-Zero-LLC/CoLabRoom-Flutter",
+  "run_id": "44347307358",
+  "schema": 2,
+  "scripts": {
+    "404.html": {
+      "bytes": 3178,
+      "sha256": "ddf1256debc4f4487fc07702459459479810a9d669046ae3d1412045a863d9fc"
+    },
+    "assets/packages/flutter_local_notifications_web/web/notifications_service_worker.js": {
+      "bytes": 3407,
+      "sha256": "566f47dccc0f417f0164a3d0852334c340d0941472af43fc65ee50a314555058"
+    },
+    "assets/packages/flutter_soloud/web/init_module.dart.js": {
+      "bytes": 63541,
+      "sha256": "9f92a1c8e44c02cbd22460c19c2396b23f4cca11cd3088dad459cd9d56fa7567"
+    },
+    "assets/packages/flutter_soloud/web/libflutter_soloud_plugin.js": {
+      "bytes": 150511,
+      "sha256": "0f7d849c27eeebf5babeb06a6bddaf2cae84d3e4e0ae1312bee6adb1b23cd4ef"
+    },
+    "assets/packages/flutter_soloud/web/libflutter_soloud_plugin.wasm": {
+      "bytes": 1919701,
+      "sha256": "d0ab88ba4f16bb62cf609cb5b02ac28ec463e0a81320d39f63e6dd1d9e88c283"
+    },
+    "assets/packages/flutter_soloud/web/worker.dart.js": {
+      "bytes": 78491,
+      "sha256": "859de583e7c32d33259749f96b19867a12acb3775e97a062d0e9263b54d09bd8"
+    },
+    "assets/packages/record_web/assets/js/record.fixwebmduration.js": {
+      "bytes": 23286,
+      "sha256": "c345ad5d2fffb357ada647b9b690693452a2001bc5912f1e9066876ce016399b"
+    },
+    "assets/packages/record_web/assets/js/record.worklet.js": {
+      "bytes": 11803,
+      "sha256": "ba7e0f4c841480ee78c0b54e7eadd44455b916fefdb07410ee46159d82dcc08e"
+    },
+    "assets/packages/wakelock_plus/assets/no_sleep.js": {
+      "bytes": 13669,
+      "sha256": "726c644cda17bf271d996fb629806a59409607e9b00e0dfbf75adfd3986bbb7e"
+    },
+    "canvaskit/canvaskit.js": {
+      "bytes": 86987,
+      "sha256": "bb559f6080c7d312ac2a912b4abec9f68ff3d3022d4a603c7796b9b31460642b"
+    },
+    "canvaskit/canvaskit.wasm": {
+      "bytes": 7284602,
+      "sha256": "fbed517a43e82452404446683f00f2e876d835aed84410695759e67b6bb01cd3"
+    },
+    "canvaskit/chromium/canvaskit.js": {
+      "bytes": 86226,
+      "sha256": "6018b12bd8ed37e6952eee72d59c1cf7ad707ccdb74a0a45190010f77edd9068"
+    },
+    "canvaskit/chromium/canvaskit.wasm": {
+      "bytes": 5428806,
+      "sha256": "ae8ff1d858140f7b1300ced3fa89fb8c9dce0a400a0f4f1e11f6dcfb3315fdcf"
+    },
+    "canvaskit/skwasm.js": {
+      "bytes": 63537,
+      "sha256": "71d7d3e34bf71b52bdba3b588b103bba8148ba28de5754083e01b3398e7a6e1c"
+    },
+    "canvaskit/skwasm.wasm": {
+      "bytes": 3593715,
+      "sha256": "e540fd5e8303b7b68ec2718cb49e9c421f8ade3075b15e02a7059a62654df9a1"
+    },
+    "canvaskit/skwasm_heavy.js": {
+      "bytes": 63650,
+      "sha256": "cec554b46ddcf4c0e63d799e0556d546f42d2c3f69316fb4f67ed776f6104558"
+    },
+    "canvaskit/skwasm_heavy.wasm": {
+      "bytes": 5216217,
+      "sha256": "565f5cc1cca6ab120f11934b105f01fec4b58b480c82e0889dca93af8e6f8635"
+    },
+    "canvaskit/webparagraph/canvaskit.js": {
+      "bytes": 76114,
+      "sha256": "3110e3e4d9b7b5657d336f253aaca8acca5777cde9319fb69ac302d6ff5a8b23"
+    },
+    "canvaskit/webparagraph/canvaskit.wasm": {
+      "bytes": 3729129,
+      "sha256": "0ce1b05082efdc8529550e8a01f6ff0593972d55525035010e26f5600aa9f254"
+    },
+    "canvaskit/wimp.js": {
+      "bytes": 59127,
+      "sha256": "8fd8a47480c6eb0a374d159912d0b3fb15661b41f5c113ecdd39c2f01f2bee46"
+    },
+    "canvaskit/wimp.wasm": {
+      "bytes": 3581677,
+      "sha256": "e924eaafd801d41e017d178f3fd5cf8a417f641fe35c9ed34a4e1d7582283e0c"
+    },
+    "confirmed.html": {
+      "bytes": 5926,
+      "sha256": "97968bb15eeaec70a04f79f02ef81fc572063af9f6fd63bdbdf58cf893f86e0c"
+    },
+    "flutter.js": {
+      "bytes": 12136,
+      "sha256": "2beb1ce6b159c71540aa66030af1d7964b6a92377cc78473745e02f97b74effe"
+    },
+    "flutter_bootstrap.js": {
+      "bytes": 13093,
+      "sha256": "ee838e4fb837c6150c2f1634d5dc7470f9fd3e8f5f08b96516c4a16392be7bbe"
+    },
+    "flutter_service_worker.js": {
+      "bytes": 784,
+      "sha256": "a131df5ca46154cc4eb79044f7f5a14029c2f8bfccf8cef34e3ec3b5a9f5a88c"
+    },
+    "index.html": {
+      "bytes": 3178,
+      "sha256": "ddf1256debc4f4487fc07702459459479810a9d669046ae3d1412045a863d9fc"
+    },
+    "main.dart.js": {
+      "bytes": 13249311,
+      "sha256": "f4f40f51fb47d02d961bd68f3b45fe1c2328e48ff0a182cdc59990927fca8526"
+    }
+  },
+  "sdk": {
+    "dart": "3.13.4",
+    "flutter": "3.47.5"
+  },
+  "source_sha": "9f572ceb8ef602089657d13a355896147f9b7539",
+  "workflow": ".github/workflows/build-web.yml"
+}
