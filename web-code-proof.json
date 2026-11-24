@@ -4,12 +4,12 @@
     "--dump-info",
     "--source-maps",
     "--dart-define=AUTH_REDIRECT_URL=https://app.colabroom.com/",
-    "--dart-define=BUILD_REF=52e655a"
+    "--dart-define=BUILD_REF=291c017"
   ],
   "compiler_proof": {
     "compiler": "3.13.4",
     "dead_declaration_count": 268,
-    "diagnostic_sha256": "4d1255c1d71192ab92fc8d172974b520bb2690b616799f93cbe96cdf743b2e94",
+    "diagnostic_sha256": "8e3b7e740dc2b92e79b415890563a20d19ecd19dfc52110df19179900ff1875b",
     "dump_schema": "5.1",
     "emitted_witnesses": [
       "package:colabroom/features/auth/supabase_auth_screen.dart::PasswordWithItsRule.build",
@@ -22,7 +22,7 @@
     "forbidden_executable_count": 0,
     "ordinary_library_bytes": {
       "features/auth/supabase_auth_screen.dart": 37241,
-      "features/workspace/live_performance_screen.dart": 221099,
+      "features/workspace/live_performance_screen.dart": 221098,
       "features/workspace/reference_recorder_sheet.dart": 61057,
       "features/workspace/song_sheet_panel.dart": 42293,
       "services/hearing_harmony.dart": 3327,
@@ -42,15 +42,15 @@
     "original_lock_sha256": "f5e94c6489319316e5534545263d14c65bbf39f21d465aa8feaad69e358c43cf",
     "original_manifest_sha256": "340e9576e43e5317e11ec9b69a01b16a87af81b74ae5321c6ebc6ac184fc7216",
     "recipe_sha256": "1f4aab1b10dc402ecf907ad596e551cbb22bf06440a2b9423f35ef0ffea19e62",
-    "source_inputs_sha256": "de6e477e5d0762b894a1bf8f8bf69d9d24f7f95b60b06e4418cdc5e75a0434aa",
-    "source_sha": "52e655ab11398b18b7eb58449b8d23f74eddd3a1",
-    "staged_inputs_sha256": "424ff603b0f288eb4d7a0d616a3e70ceffa3f14e3680d646c2f7612b580b53e2",
+    "source_inputs_sha256": "b176961b038e84a0b5aa236acca18ed93102794171c5a3bc1ac98caf7c95ce6d",
+    "source_sha": "291c017f87dcd56b9f662329b36254cbef5a8813",
+    "staged_inputs_sha256": "805deb85b12cb16d02fa72a53df04ad5135bf67e0058b36f6fc4bf43bf61b27e",
     "staged_lock_sha256": "b6ad73791d4104273d92820b7a3692e80b25de2d8f36d90e4f61111603050d3c",
     "staged_manifest_sha256": "3682930ce32d7691097bdf483b65bd0e7c65687d69409a6cef5c9583730c4212",
     "transformation": "exclude-native-revenuecat-v1"
   },
   "repository": "Decibel-Zero-LLC/CoLabRoom-Flutter",
-  "run_id": "45350138297",
+  "run_id": "45496697474",
   "schema": 2,
   "scripts": {
     "404.html": {
@@ -147,7 +147,7 @@
     },
     "flutter_bootstrap.js": {
       "bytes": 13094,
-      "sha256": "f88926cd6e29fd02fa0509321afa9d4543c86924776bf1193e8d79470315b52f"
+      "sha256": "0251fdf94b256aa34dc4dfbd699d0ea6e7f7b911e7cf2795317f7a6c1b729615"
     },
     "flutter_service_worker.js": {
       "bytes": 784,
@@ -158,14 +158,14 @@
       "sha256": "ddf1256debc4f4487fc07702459459479810a9d669046ae3d1412045a863d9fc"
     },
     "main.dart.js": {
-      "bytes": 13504435,
-      "sha256": "fbcc3329eef93f4c5555ba4a7b348aad6571ca79f25d65f01032c0f7a263c2a3"
+      "bytes": 13507866,
+      "sha256": "356e4890d8b9e5487f76b65e467983ff417f5b066767dd855b26461fbee13049"
     }
   },
   "sdk": {
     "dart": "3.13.4",
     "flutter": "3.47.5"
   },
-  "source_sha": "52e655ab11398b18b7eb58449b8d23f74eddd3a1",
+  "source_sha": "291c017f87dcd56b9f662329b36254cbef5a8813",
   "workflow": ".github/workflows/build-web.yml"
 }
