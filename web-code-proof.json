@@ -1,22 +1,22 @@
 {
   "build": {
-    "name": "0.6.1106",
-    "number": 1106
+    "name": "0.6.1107",
+    "number": 1107
   },
   "build_flags": [
     "--release",
     "--dump-info",
     "--source-maps",
     "--dart-define=AUTH_REDIRECT_URL=https://app.colabroom.com/",
-    "--dart-define=BUILD_REF=b00d8b3",
-    "--build-name=0.6.1106",
-    "--build-number=1106",
-    "--dart-define=BUILD_NUMBER=1106"
+    "--dart-define=BUILD_REF=b49419c",
+    "--build-name=0.6.1107",
+    "--build-number=1107",
+    "--dart-define=BUILD_NUMBER=1107"
   ],
   "compiler_proof": {
     "compiler": "3.13.4",
     "dead_declaration_count": 268,
-    "diagnostic_sha256": "e1c8a1c4c943e880b1bde8c96c8c8583092de54e7f3f1f3cadae68191d89f5aa",
+    "diagnostic_sha256": "8007ec4bcaced6fd6db68f7242f44ada2e706312935cbc462b69ddfdc450e56c",
     "dump_schema": "5.1",
     "emitted_witnesses": [
       "package:colabroom/features/auth/supabase_auth_screen.dart::PasswordWithItsRule.build",
@@ -29,7 +29,7 @@
     "forbidden_executable_count": 0,
     "ordinary_library_bytes": {
       "features/auth/supabase_auth_screen.dart": 38439,
-      "features/workspace/live_performance_screen.dart": 221090,
+      "features/workspace/live_performance_screen.dart": 221099,
       "features/workspace/reference_recorder_sheet.dart": 61063,
       "features/workspace/song_sheet_panel.dart": 42286,
       "services/hearing_harmony.dart": 3327,
@@ -49,15 +49,15 @@
     "original_lock_sha256": "f5e94c6489319316e5534545263d14c65bbf39f21d465aa8feaad69e358c43cf",
     "original_manifest_sha256": "7badc0fca145d9ebfdab3381b6d9ff6933b48f0c5a5c032c5c210c234df3726f",
     "recipe_sha256": "d90391044fa731336c1ef8bbefc2044b916819b3ae5da37a926e528d8e7b9ae5",
-    "source_inputs_sha256": "892d76495257ddb459dee361e78bfcef22d6e2fddb03d35c58aac80d47099a57",
-    "source_sha": "b00d8b303cb1b29bac497c21920b34a972d38799",
-    "staged_inputs_sha256": "acb0ebf6fdb7a39168e250a17425a6f9ad1a3075c8fc0098a55b24d0f3c245c5",
+    "source_inputs_sha256": "13cbf83c31bed6d78990b5ae8706fc6f985ff543810e6d2aecc925a010bc0530",
+    "source_sha": "b49419cfefd0c458253e89df6e3b87ca2939457a",
+    "staged_inputs_sha256": "a85eadf98a34f99752daeaa9ff0b070ae405b4e56d9162c431d3b45c7d686fa5",
     "staged_lock_sha256": "b6ad73791d4104273d92820b7a3692e80b25de2d8f36d90e4f61111603050d3c",
     "staged_manifest_sha256": "9f81ba762e4232560a14e031d049c1b7c8330c4c9b3437950b2a3e14a9d718dd",
     "transformation": "exclude-native-revenuecat-v1"
   },
   "repository": "Decibel-Zero-LLC/CoLabRoom-Flutter",
-  "run_id": "45773299858",
+  "run_id": "45845744984",
   "schema": 2,
   "scripts": {
     "404.html": {
@@ -154,7 +154,7 @@
     },
     "flutter_bootstrap.js": {
       "bytes": 13093,
-      "sha256": "9c697da97ed862607d8febe05f4c281b911763fbfa65600bfb49850e96505022"
+      "sha256": "d8f905e7cb3d29d81642ffa3543b0438cf4792274651fddbacb583d1813f8fd3"
     },
     "flutter_service_worker.js": {
       "bytes": 784,
@@ -165,14 +165,14 @@
       "sha256": "ddf1256debc4f4487fc07702459459479810a9d669046ae3d1412045a863d9fc"
     },
     "main.dart.js": {
-      "bytes": 13626682,
-      "sha256": "4564be3708aa9f46050c5bdb314cd88ae59d41505a156fdf7fbdb94768df0ded"
+      "bytes": 13654333,
+      "sha256": "e7c691376c69c992d55fe26b6751699cc8592643978c83d96b5a8fea85ab99b1"
     }
   },
   "sdk": {
     "dart": "3.13.4",
     "flutter": "3.47.5"
   },
-  "source_sha": "b00d8b303cb1b29bac497c21920b34a972d38799",
+  "source_sha": "b49419cfefd0c458253e89df6e3b87ca2939457a",
   "workflow": ".github/workflows/build-web.yml"
 }
